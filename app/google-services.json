@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "359749012270",
+    "project_id": "notuygulamasi-9970a",
+    "storage_bucket": "notuygulamasi-9970a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:359749012270:android:087b026b700459e5f048bf",
+        "android_client_info": {
+          "package_name": "com.busraornek.notlaruygulamas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "359749012270-rdclt552klh5lomda4nqq5nalf02pig1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.busraornek.notlaruygulamas",
+            "certificate_hash": "090e3274dc403a85854dbea23e606051e2396f4c"
+          }
+        },
+        {
+          "client_id": "359749012270-4is4uajpqgrsvl76pabqs1icg3hg5vv6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYXNiorbvm181BZI8FCXJrAykGoOR8UhU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "359749012270-4is4uajpqgrsvl76pabqs1icg3hg5vv6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
