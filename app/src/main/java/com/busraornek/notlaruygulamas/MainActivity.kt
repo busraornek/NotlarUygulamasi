@@ -27,8 +27,6 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-
-       // binding.toolbar.title = "Notlar Uygulaması"
         setSupportActionBar(binding.toolbar)
 
         binding.rv.setHasFixedSize(true)
