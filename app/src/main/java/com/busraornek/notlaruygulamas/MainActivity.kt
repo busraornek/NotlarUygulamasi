@@ -2,8 +2,11 @@ package com.busraornek.notlaruygulamas
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
+import android.view.Menu
 import android.widget.EditText
+import android.widget.SearchView
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -25,7 +28,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
 
-        binding.toolbar.title = "Notlar Uygulaması"
+       // binding.toolbar.title = "Notlar Uygulaması"
         setSupportActionBar(binding.toolbar)
 
         binding.rv.setHasFixedSize(true)
@@ -48,6 +51,7 @@ class MainActivity : AppCompatActivity() {
         }
 
     }
+
     fun alertGoster(){
         val tasarim = LayoutInflater.from(this).inflate(R.layout.alert_goster,null)
         val editTextBaslik = tasarim.findViewById(R.id.editTextBaslik) as EditText
@@ -88,6 +92,9 @@ class MainActivity : AppCompatActivity() {
             }
         })
     }
+
+
+
 }
 
 
